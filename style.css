@@ -1,3 +1,12 @@
+header{
+    align-items: inline;
+    margin-left:0px;
+    padding-right: -50px;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    background-color: green;
+    flex: none;
+}
 body{
     margin-top: auto;
     background-image: url("images/bg.png");
@@ -22,14 +31,14 @@ a{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10px;
+    padding:0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100%;
 }
 .branding img{
-    margin-right: 100px;
+    margin-right: 10px;
     float: right;
     border: 1px black solid;
 }
